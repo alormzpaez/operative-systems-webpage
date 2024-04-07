@@ -13,6 +13,7 @@ import "./App.css";
 import React from "react";
 import useDarkMode from "use-dark-mode";
 import Definition from "./components/Definition";
+import Versions from "./components/Versions";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -99,7 +100,8 @@ function App() {
             ))}
           </NavbarMenu>
         </Navbar>
-        <Definition />
+        {/* <Definition /> */}
+        <Versions />
       </main>
     </main>
   );
