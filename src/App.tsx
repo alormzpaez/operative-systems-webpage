@@ -18,6 +18,7 @@ import Versions from "./components/Versions";
 function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const darkMode = useDarkMode(true);
+  const [page, setPage] = React.useState("Definición");
 
   const menuItems = [
     "Definición",
@@ -56,10 +57,10 @@ function App() {
           <NavbarContent className="hidden gap-4 sm:flex" justify="center">
             <NavbarBrand>
               <img src={logo} alt="Logo" className="w-5 h-auto mr-2" />
-              <p className="font-bold text-inherit">Mac</p>
+              <p className="font-bold text-inherit">MacOS</p>
             </NavbarBrand>
-            <NavbarItem>
-              <Link color="foreground" href="#">
+            <NavbarItem className="ml-10">
+              <Link color="foreground" onPress={() => setPage("Definición")} className="cursor-pointer">
                 Definición
               </Link>
             </NavbarItem>
@@ -69,7 +70,7 @@ function App() {
               </Link>
             </NavbarItem>
             <NavbarItem>
-              <Link color="foreground" href="#">
+              <Link color="foreground" onPress={() => setPage("Versiones")} className="cursor-pointer">
                 Versiones
               </Link>
             </NavbarItem>
@@ -100,8 +101,14 @@ function App() {
             ))}
           </NavbarMenu>
         </Navbar>
-        {/* <Definition /> */}
-        <Versions />
+        {
+          page == "Definición" ?
+            <Definition />
+          : page == "Versiones" ?
+            <Versions />
+          :
+            null
+        }
       </main>
     </main>
   );
