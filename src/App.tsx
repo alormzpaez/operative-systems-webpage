@@ -14,17 +14,18 @@ import React from "react";
 import useDarkMode from "use-dark-mode";
 import Definition from "./components/Definition";
 import Versions from "./components/Versions";
+import Interface from "./components/Interface";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const darkMode = useDarkMode(true);
-  const [page, setPage] = React.useState("Definición");
+  const [page, setPage] = React.useState("Interfaz");
 
   const menuItems = [
     "Definición",
     "Historia",
     "Versiones",
-    "CLI",
+    "Interfaz",
     "GUI",
     "Concurrencia",
   ];
@@ -75,13 +76,8 @@ function App() {
               </Link>
             </NavbarItem>
             <NavbarItem>
-              <Link color="foreground" href="#">
-                CLI
-              </Link>
-            </NavbarItem>
-            <NavbarItem>
-              <Link color="foreground" href="#">
-                GUI
+              <Link color="foreground" onPress={() => setPage("Interfaz")} className="cursor-pointer">
+                Interfaz
               </Link>
             </NavbarItem>
             <NavbarItem>
@@ -106,6 +102,8 @@ function App() {
             <Definition />
           : page == "Versiones" ?
             <Versions />
+          : page == "Interfaz" ?
+            <Interface />
           :
             null
         }
