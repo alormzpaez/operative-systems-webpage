@@ -7,6 +7,7 @@ import {
   NavbarContent,
   NavbarItem,
   Link,
+  Switch,
 } from "@nextui-org/react";
 import logo from "./assets/apple.svg";
 import "./App.css";
@@ -15,11 +16,14 @@ import useDarkMode from "use-dark-mode";
 import Definition from "./components/Definition";
 import Versions from "./components/Versions";
 import Interface from "./components/Interface";
+import Concurrence from "./components/Concurrence";
+import { FaSun } from "react-icons/fa";
+import { FaMoon } from "react-icons/fa";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const darkMode = useDarkMode(true);
-  const [page, setPage] = React.useState("Interfaz");
+  const [page, setPage] = React.useState("Concurrencia");
 
   const menuItems = [
     "Definición",
@@ -61,27 +65,27 @@ function App() {
               <p className="font-bold text-inherit">MacOS</p>
             </NavbarBrand>
             <NavbarItem className="ml-10">
-              <Link color="foreground" onPress={() => setPage("Definición")} className="cursor-pointer">
+              <Link color={page == "Definición" ? "primary" : "foreground"} onPress={() => setPage("Definición")} className="cursor-pointer">
                 Definición
               </Link>
             </NavbarItem>
-            <NavbarItem isActive>
-              <Link href="#" aria-current="page">
+            {/* <NavbarItem isActive>
+              <Link color={page == "Historia" ? "primary" : "foreground"} className="cursor-pointer">
                 Historia
               </Link>
-            </NavbarItem>
+            </NavbarItem> */}
             <NavbarItem>
-              <Link color="foreground" onPress={() => setPage("Versiones")} className="cursor-pointer">
+              <Link color={page == "Versiones" ? "primary" : "foreground"} onPress={() => setPage("Versiones")} className="cursor-pointer">
                 Versiones
               </Link>
             </NavbarItem>
             <NavbarItem>
-              <Link color="foreground" onPress={() => setPage("Interfaz")} className="cursor-pointer">
+              <Link color={page == "Interfaz" ? "primary" : "foreground"} onPress={() => setPage("Interfaz")} className="cursor-pointer">
                 Interfaz
               </Link>
             </NavbarItem>
             <NavbarItem>
-              <Link color="foreground" href="#">
+              <Link color={page == "Concurrencia" ? "primary" : "foreground"} onPress={() => setPage("Concurrencia")} className="cursor-pointer">
                 Concurrencia
               </Link>
             </NavbarItem>
@@ -104,6 +108,8 @@ function App() {
             <Versions />
           : page == "Interfaz" ?
             <Interface />
+          : page == "Concurrencia" ?
+            <Concurrence />
           :
             null
         }
