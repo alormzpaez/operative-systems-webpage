@@ -20,6 +20,7 @@ import Concurrence from "./components/Concurrence";
 import { FaSun } from "react-icons/fa";
 import { FaMoon } from "react-icons/fa";
 import FrontPage from "./components/FrontPage";
+import History from "./components/History";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -75,11 +76,11 @@ function App() {
                 Definición
               </Link>
             </NavbarItem>
-            {/* <NavbarItem isActive>
-              <Link color={page == "Historia" ? "primary" : "foreground"} className="cursor-pointer">
+            <NavbarItem isActive>
+              <Link color={page == "Historia" ? "primary" : "foreground"} onPress={() => setPage("Historia")} className="cursor-pointer">
                 Historia
               </Link>
-            </NavbarItem> */}
+            </NavbarItem>
             <NavbarItem>
               <Link color={page == "Versiones" ? "primary" : "foreground"} onPress={() => setPage("Versiones")} className="cursor-pointer">
                 Versiones
@@ -118,6 +119,8 @@ function App() {
             <Interface />
           : page == "Concurrencia" ?
             <Concurrence />
+          : page == "Historia" ?
+            <History />
           :
             null
         }
