@@ -67,32 +67,32 @@ function App() {
               <p className="font-bold text-inherit">MacOS</p>
             </NavbarBrand>
             <NavbarItem className="ml-10">
-              <Link color={page == "Portada" ? "primary" : "foreground"} onPress={() => setPage("Portada")} className="cursor-pointer">
+              <Link color={page == "Portada" ? "primary" : "foreground"} onPress={() => {setPage("Portada"); window.scrollTo(0, 0)}} className="cursor-pointer">
                 Portada
               </Link>
             </NavbarItem>
             <NavbarItem className="">
-              <Link color={page == "Definición" ? "primary" : "foreground"} onPress={() => setPage("Definición")} className="cursor-pointer">
+              <Link color={page == "Definición" ? "primary" : "foreground"} onPress={() => {setPage("Definición"); window.scrollTo(0, 0)}} className="cursor-pointer">
                 Definición
               </Link>
             </NavbarItem>
             <NavbarItem isActive>
-              <Link color={page == "Historia" ? "primary" : "foreground"} onPress={() => setPage("Historia")} className="cursor-pointer">
+              <Link color={page == "Historia" ? "primary" : "foreground"} onPress={() => {setPage("Historia"); window.scrollTo(0, 0)}} className="cursor-pointer">
                 Historia
               </Link>
             </NavbarItem>
             <NavbarItem>
-              <Link color={page == "Versiones" ? "primary" : "foreground"} onPress={() => setPage("Versiones")} className="cursor-pointer">
+              <Link color={page == "Versiones" ? "primary" : "foreground"} onPress={() => {setPage("Versiones"); window.scrollTo(0, 0)}} className="cursor-pointer">
                 Versiones
               </Link>
             </NavbarItem>
             <NavbarItem>
-              <Link color={page == "Interfaz" ? "primary" : "foreground"} onPress={() => setPage("Interfaz")} className="cursor-pointer">
+              <Link color={page == "Interfaz" ? "primary" : "foreground"} onPress={() => {setPage("Interfaz"); window.scrollTo(0, 0)}} className="cursor-pointer">
                 Interfaz
               </Link>
             </NavbarItem>
             <NavbarItem>
-              <Link color={page == "Concurrencia" ? "primary" : "foreground"} onPress={() => setPage("Concurrencia")} className="cursor-pointer">
+              <Link color={page == "Concurrencia" ? "primary" : "foreground"} onPress={() => {setPage("Concurrencia"); window.scrollTo(0, 0)}} className="cursor-pointer">
                 Concurrencia
               </Link>
             </NavbarItem>
