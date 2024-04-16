@@ -19,11 +19,12 @@ import Interface from "./components/Interface";
 import Concurrence from "./components/Concurrence";
 import { FaSun } from "react-icons/fa";
 import { FaMoon } from "react-icons/fa";
+import FrontPage from "./components/FrontPage";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const darkMode = useDarkMode(true);
-  const [page, setPage] = React.useState("Concurrencia");
+  const [page, setPage] = React.useState("Portada");
 
   const menuItems = [
     "Definición",
@@ -65,6 +66,11 @@ function App() {
               <p className="font-bold text-inherit">MacOS</p>
             </NavbarBrand>
             <NavbarItem className="ml-10">
+              <Link color={page == "Portada" ? "primary" : "foreground"} onPress={() => setPage("Portada")} className="cursor-pointer">
+                Portada
+              </Link>
+            </NavbarItem>
+            <NavbarItem className="">
               <Link color={page == "Definición" ? "primary" : "foreground"} onPress={() => setPage("Definición")} className="cursor-pointer">
                 Definición
               </Link>
@@ -102,7 +108,9 @@ function App() {
           </NavbarMenu>
         </Navbar>
         {
-          page == "Definición" ?
+          page == "Portada" ?
+            <FrontPage />
+          : page == "Definición" ?
             <Definition />
           : page == "Versiones" ?
             <Versions />
