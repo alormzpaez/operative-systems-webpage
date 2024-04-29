@@ -98,7 +98,7 @@ const FrontPage = () => {
                   alt="Bonnie Avatar"
                 />
                 <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  <a href="#">Roció Guadalupe Sánchez Medrano</a>
+                  <a href="#">Rocío Guadalupe Sánchez Medrano</a>
                 </h3>
                 <div className="flex justify-center gap-5">
                   <span>1959446</span>
