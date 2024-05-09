@@ -89,7 +89,7 @@ function App() {
             </NavbarItem>
             <NavbarItem>
               <Link color={page == "Versiones" ? "primary" : "foreground"} onPress={() => {setPage("Versiones"); window.scrollTo(0, 0)}} className="cursor-pointer">
-                Versiones
+                Versiones y hardware
               </Link>
             </NavbarItem>
             <NavbarItem>
