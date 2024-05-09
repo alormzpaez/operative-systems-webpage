@@ -21,6 +21,9 @@ import { FaSun } from "react-icons/fa";
 import { FaMoon } from "react-icons/fa";
 import FrontPage from "./components/FrontPage";
 import History from "./components/History";
+import Security from "./components/Security";
+import Bibliografia from "./components/Bibliografia";
+import Conclusiones from "./components/Conclusiones";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -29,11 +32,14 @@ function App() {
 
   const menuItems = [
     "Definición",
+    "Seguridad",
     "Historia",
     "Versiones",
     "Interfaz",
     "GUI",
     "Concurrencia",
+    "Bibliografia",
+    "Conclusiones",
   ];
 
   return (
@@ -76,6 +82,11 @@ function App() {
                 Definición
               </Link>
             </NavbarItem>
+            <NavbarItem className="">
+              <Link color={page == "Seguridad" ? "primary" : "foreground"} onPress={() => {setPage("Seguridad"); window.scrollTo(0, 0)}} className="cursor-pointer">
+                Seguridad
+              </Link>
+            </NavbarItem>
             <NavbarItem isActive>
               <Link color={page == "Historia" ? "primary" : "foreground"} onPress={() => {setPage("Historia"); window.scrollTo(0, 0)}} className="cursor-pointer">
                 Historia
@@ -96,6 +107,16 @@ function App() {
                 Concurrencia
               </Link>
             </NavbarItem>
+            <NavbarItem>
+              <Link color={page == "Bibliografia" ? "primary" : "foreground"} onPress={() => {setPage("Bibliografia"); window.scrollTo(0, 0)}} className="cursor-pointer">
+                Bibliografia
+              </Link>
+            </NavbarItem>
+            <NavbarItem>
+              <Link color={page == "Conclusiones" ? "primary" : "foreground"} onPress={() => {setPage("Conclusiones"); window.scrollTo(0, 0)}} className="cursor-pointer">
+                Conclusiones
+              </Link>
+            </NavbarItem>
           </NavbarContent>
 
           <NavbarMenu className="dark">
@@ -113,6 +134,8 @@ function App() {
             <FrontPage />
           : page == "Definición" ?
             <Definition />
+          : page == "Seguridad" ?
+            <Security />
           : page == "Versiones" ?
             <Versions />
           : page == "Interfaz" ?
@@ -121,6 +144,10 @@ function App() {
             <Concurrence />
           : page == "Historia" ?
             <History />
+          : page == "Bibliografia" ?
+            <Bibliografia />
+          : page == "Conclusiones" ?
+            <Conclusiones />
           :
             null
         }

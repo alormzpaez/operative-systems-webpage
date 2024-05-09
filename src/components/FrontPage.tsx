@@ -61,6 +61,7 @@ const FrontPage = () => {
                 <div className="flex justify-center gap-5">
                   <span>1855134</span>
                   <span>IAS</span>
+                  <span>Procentaje: 100%</span>
                 </div>
               </div>
               <div className="text-center text-gray-500 dark:text-gray-400">
@@ -75,6 +76,7 @@ const FrontPage = () => {
                 <div className="flex justify-center gap-5">
                   <span>2003905</span>
                   <span>ITS</span>
+                  <span>Procentaje: 100%</span>
                 </div>
               </div>
               <div className="text-center text-gray-500 dark:text-gray-400">
@@ -89,6 +91,7 @@ const FrontPage = () => {
                 <div className="flex justify-center gap-5">
                   <span>2127873</span>
                   <span>ITS</span>
+                  <span>Procentaje: 100%</span>
                 </div>
               </div>
               <div className="text-center text-gray-500 dark:text-gray-400">
@@ -103,6 +106,7 @@ const FrontPage = () => {
                 <div className="flex justify-center gap-5">
                   <span>1959446</span>
                   <span>IAS</span>
+                  <span>Procentaje: 100%</span>
                 </div>
               </div>
               <div className="flex justify-center col-start-1 col-end-5 gap-10">
@@ -118,6 +122,7 @@ const FrontPage = () => {
                 <div className="flex justify-center gap-5">
                   <span>2127884</span>
                   <span>ITS</span>
+                  <span>Procentaje: 100%</span>
                 </div>
               </div>
               <div className="w-1/4 text-center text-gray-500 dark:text-gray-400">
@@ -132,6 +137,7 @@ const FrontPage = () => {
                 <div className="flex justify-center gap-5">
                   <span>1940892</span>
                   <span>ITS</span>
+                  <span>Procentaje: 100%</span>
                 </div>
               </div>
               <div className="w-1/4 text-center text-gray-500 dark:text-gray-400">
@@ -146,6 +152,7 @@ const FrontPage = () => {
                 <div className="flex justify-center gap-5">
                   <span>1967943</span>
                   <span>ITS</span>
+                  <span>Procentaje: 100%</span>
                 </div>
               </div>
               </div>
