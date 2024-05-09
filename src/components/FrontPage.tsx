@@ -25,31 +25,29 @@ const FrontPage = () => {
                 />
                 <Image
                   radius="none"
-                  width={100}
+                  width={90}
                   alt="NextUI hero Image"
                   src={fime}
                 />
               </div>
-              <h2 className="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">
+              <h2 className="mb-4 text-5xl font-extrabold tracking-tight text-gray-900 dark:text-white">
                 PIA
               </h2>
-              <p className="text-gray-200 sm:text-xl ">
-                Equipo #2
+              <p className="text-xl text-white">Equipo #2</p>
+              <p className="text-xl text-white ">
+                Sistemas operativos - Clase ordinaria
               </p>
-              <p className="text-gray-200 sm:text-xl ">
-                Sistemas operativos
-              </p>
-              <div className="flex justify-center gap-10 text-gray-200 sm:text-xl">
-                <span>
-                  Hora: M4
-                </span>
-                <span>
-                  Salón: 1303
-                </span>
+              <p className="text-xl text-white ">Grupo: 002</p>
+              <div className="flex justify-center gap-10 text-xl text-white">
+                <span>Hora: M4</span>
+                <span>Salón: 1303</span>
               </div>
+              <p className="text-xl text-white ">
+                Docente: Norma Edith Marín Martínez
+              </p>
             </div>
-            <div className="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-              <div className="text-center text-gray-500 dark:text-gray-400">
+            <div className="grid gap-8 lg:gap-28 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+              <div className="text-lg text-center text-white">
                 <img
                   className="mx-auto mb-4 rounded-full w-36 h-36"
                   src={natividad}
@@ -61,10 +59,15 @@ const FrontPage = () => {
                 <div className="flex justify-center gap-5">
                   <span>1855134</span>
                   <span>IAS</span>
-                  <span>Procentaje: 100%</span>
+                </div>
+                <div className="flex justify-center gap-5">
+                  <span>Porcentaje: 100%</span>
+                </div>
+                <div className="flex justify-center gap-5">
+                  <span>natividad.deleonrm@uanl.edu.mx</span>
                 </div>
               </div>
-              <div className="text-center text-gray-500 dark:text-gray-400">
+              <div className="text-lg text-center text-white">
                 <img
                   className="mx-auto mb-4 rounded-full w-36 h-36"
                   src={emiliano}
@@ -76,10 +79,15 @@ const FrontPage = () => {
                 <div className="flex justify-center gap-5">
                   <span>2003905</span>
                   <span>ITS</span>
-                  <span>Procentaje: 100%</span>
+                </div>
+                <div className="flex justify-center gap-5">
+                  <span>Porcentaje: 100%</span>
+                </div>
+                <div className="flex justify-center gap-5">
+                  <span>emiliano.garciamnt@uanl.edu.mx</span>
                 </div>
               </div>
-              <div className="text-center text-gray-500 dark:text-gray-400">
+              <div className="text-lg text-center text-white">
                 <img
                   className="mx-auto mb-4 rounded-full w-36 h-36"
                   src={alonso}
@@ -91,10 +99,15 @@ const FrontPage = () => {
                 <div className="flex justify-center gap-5">
                   <span>2127873</span>
                   <span>ITS</span>
-                  <span>Procentaje: 100%</span>
+                </div>
+                <div className="flex justify-center gap-5">
+                  <span>Porcentaje: 100%</span>
+                </div>
+                <div className="flex justify-center gap-5">
+                  <span>alonso.ramirezp@uanl.edu.mx</span>
                 </div>
               </div>
-              <div className="text-center text-gray-500 dark:text-gray-400">
+              <div className="text-lg text-center text-white">
                 <img
                   className="mx-auto mb-4 rounded-full w-36 h-36"
                   src={rocio}
@@ -106,60 +119,93 @@ const FrontPage = () => {
                 <div className="flex justify-center gap-5">
                   <span>1959446</span>
                   <span>IAS</span>
-                  <span>Procentaje: 100%</span>
+                </div>
+                <div className="flex justify-center gap-5">
+                  <span>Porcentaje: 100%</span>
+                </div>
+                <div className="flex justify-center gap-5">
+                  <span>rocio.sanchezmdrn@uanl.edu.mx</span>
                 </div>
               </div>
               <div className="flex justify-center col-start-1 col-end-5 gap-10">
-              <div className="w-1/4 text-center text-gray-500 dark:text-gray-400">
-                <img
-                  className="mx-auto mb-4 rounded-full w-36 h-36"
-                  src={javier}
-                  alt="Bonnie Avatar"
-                />
-                <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  <a href="#">Javier López Pérez</a>
-                </h3>
-                <div className="flex justify-center gap-5">
-                  <span>2127884</span>
-                  <span>ITS</span>
-                  <span>Procentaje: 100%</span>
+                <div className="w-1/4 text-lg text-center text-white">
+                  <img
+                    className="mx-auto mb-4 rounded-full w-36 h-36"
+                    src={javier}
+                    alt="Bonnie Avatar"
+                  />
+                  <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    <a href="#">Javier López Pérez</a>
+                  </h3>
+                  <div className="flex justify-center gap-5">
+                    <span>2127884</span>
+                    <span>ITS</span>
+                  </div>
+                  <div className="flex justify-center gap-5">
+                    <span>Porcentaje: 100%</span>
+                  </div>
+                  <div className="flex justify-center gap-5">
+                    <span>javier.lopezpr@uanl.edu.mx</span>
+                  </div>
                 </div>
-              </div>
-              <div className="w-1/4 text-center text-gray-500 dark:text-gray-400">
-                <img
-                  className="mx-auto mb-4 rounded-full w-36 h-36"
-                  src={carlos}
-                  alt="Bonnie Avatar"
-                />
-                <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  <a href="#">Carlos Gabriel Beas Gonzalez</a>
-                </h3>
-                <div className="flex justify-center gap-5">
-                  <span>1940892</span>
-                  <span>ITS</span>
-                  <span>Procentaje: 100%</span>
+                <div className="w-1/4 text-lg text-center text-white">
+                  <img
+                    className="mx-auto mb-4 rounded-full w-36 h-36"
+                    src={carlos}
+                    alt="Bonnie Avatar"
+                  />
+                  <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    <a href="#">Carlos Gabriel Beas Gonzalez</a>
+                  </h3>
+                  <div className="flex justify-center gap-5">
+                    <span>1940892</span>
+                    <span>ITS</span>
+                  </div>
+                  <div className="flex justify-center gap-5">
+                    <span>Porcentaje: 100%</span>
+                  </div>
+                  <div className="flex justify-center gap-5">
+                    <span>carlos.beasgnz@uanl.edu.mx</span>
+                  </div>
                 </div>
-              </div>
-              <div className="w-1/4 text-center text-gray-500 dark:text-gray-400">
-                <img
-                  className="mx-auto mb-4 rounded-full w-36 h-36"
-                  src={daniel}
-                  alt="Bonnie Avatar"
-                />
-                <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  <a href="#">Daniel Aharon Sánchez González</a>
-                </h3>
-                <div className="flex justify-center gap-5">
-                  <span>1967943</span>
-                  <span>ITS</span>
-                  <span>Procentaje: 100%</span>
+                <div className="w-1/4 text-lg text-center text-white">
+                  <img
+                    className="mx-auto mb-4 rounded-full w-36 h-36"
+                    src={daniel}
+                    alt="Bonnie Avatar"
+                  />
+                  <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    <a href="#">Daniel Aharon Sánchez González</a>
+                  </h3>
+                  <div className="flex justify-center gap-5">
+                    <span>1967943</span>
+                    <span>ITS</span>
+                  </div>
+                  <div className="flex justify-center gap-5">
+                    <span>Porcentaje: 100%</span>
+                  </div>
+                  <div className="flex justify-center gap-5">
+                    <span>aharon.sanchezgnz@uanl.edu.mx</span>
+                  </div>
                 </div>
-              </div>
               </div>
             </div>
+            <div className="mt-16">
+              <p className="text-xl text-justify text-white">
+                <b>Misión u objetivo de la página:</b> La misión u objetivo de esta
+                página es proporcionar una comprensión integral del sistema
+                operativo MacOS, destacando su funcionamiento en áreas clave
+                como seguridad informática, hardware, concurrencia a nivel de
+                kernel y sistema operativo. Utilizando los conocimientos
+                adquiridos durante el semestre, se busca ofrecer una visión
+                detallada y accesible de cómo este sistema operativo opera en
+                diversos niveles.
+              </p>
+            </div>
             <div className="max-w-screen-sm mx-auto mt-16">
-              <p className="text-gray-400">
-                Ciudad Universitaria, San Nicolás de los Garza, Nuevo León a 16 de marzo del 2024
+              <p className="text-xl text-white">
+                Ciudad Universitaria, San Nicolás de los Garza, Nuevo León a 09
+                de mayo del 2024
               </p>
             </div>
           </div>
