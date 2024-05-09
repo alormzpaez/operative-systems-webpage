@@ -82,11 +82,6 @@ function App() {
                 Definición
               </Link>
             </NavbarItem>
-            <NavbarItem className="">
-              <Link color={page == "Seguridad" ? "primary" : "foreground"} onPress={() => {setPage("Seguridad"); window.scrollTo(0, 0)}} className="cursor-pointer">
-                Seguridad
-              </Link>
-            </NavbarItem>
             <NavbarItem isActive>
               <Link color={page == "Historia" ? "primary" : "foreground"} onPress={() => {setPage("Historia"); window.scrollTo(0, 0)}} className="cursor-pointer">
                 Historia
@@ -105,6 +100,11 @@ function App() {
             <NavbarItem>
               <Link color={page == "Concurrencia" ? "primary" : "foreground"} onPress={() => {setPage("Concurrencia"); window.scrollTo(0, 0)}} className="cursor-pointer">
                 Concurrencia
+              </Link>
+            </NavbarItem>
+            <NavbarItem className="">
+              <Link color={page == "Seguridad" ? "primary" : "foreground"} onPress={() => {setPage("Seguridad"); window.scrollTo(0, 0)}} className="cursor-pointer">
+                Seguridad
               </Link>
             </NavbarItem>
             <NavbarItem>
