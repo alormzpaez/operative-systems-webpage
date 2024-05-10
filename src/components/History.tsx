@@ -4,7 +4,6 @@ import steve from "./../assets/steve.jpg";
 import stephen from "./../assets/stephen.jpg";
 import mike from "./../assets/mike.webp";
 import ad1984 from "./../assets/1984.jpg";
-import superbowl from "./../assets/superbowl.jpg";
 import pixar from "./../assets/pixar.jpg";
 import macosx from "./../assets/macosx.jpg";
 

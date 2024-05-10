@@ -7,7 +7,6 @@ import {
   NavbarContent,
   NavbarItem,
   Link,
-  Switch,
 } from "@nextui-org/react";
 import logo from "./assets/apple.svg";
 import "./App.css";
@@ -17,8 +16,6 @@ import Definition from "./components/Definition";
 import Versions from "./components/Versions";
 import Interface from "./components/Interface";
 import Concurrence from "./components/Concurrence";
-import { FaSun } from "react-icons/fa";
-import { FaMoon } from "react-icons/fa";
 import FrontPage from "./components/FrontPage";
 import History from "./components/History";
 import Security from "./components/Security";

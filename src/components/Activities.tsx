@@ -1,6 +1,5 @@
 import { Button } from "@nextui-org/react";
-import React from "react";
-import { FaDownload, FaFile } from "react-icons/fa";
+import { FaFile } from "react-icons/fa";
 import af1 from "./AF1_SO.pdf";
 import af2video from "./AF2_SO VIDEO.pdf";
 import af2inv from "./AF2_SO INV.pdf";
