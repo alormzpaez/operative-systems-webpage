@@ -158,6 +158,7 @@ const Concurrence = () => {
                   color="primary"
                   showAnchorIcon
                   variant="solid"
+                  className="text-md"
                 >
                   Ir a página oficial de Swift
                 </Button>
