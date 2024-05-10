@@ -43,9 +43,10 @@ function App() {
 
   return (
     <main
-      className={`${
-        darkMode.value ? "dark" : ""
-      } text-foreground bg-background`}
+      className="dark text-foreground bg-background"
+      // className={`${
+      //   darkMode.value ? "dark" : ""
+      // } text-foreground bg-background`}
     >
       <main className="min-h-screen">
         <Navbar
