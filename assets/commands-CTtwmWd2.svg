@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="338.57144"
+   height="398.65302"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="Command line interface.svg">
+  <title
+     id="title3976">Command Line Interface</title>
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective2884"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3676"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3716"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3746"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3768"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3790"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3790-8"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3829"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3876"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3898"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="-230.62412"
+     inkscape:cy="194.32017"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer3"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1264"
+     inkscape:window-height="697"
+     inkscape:window-x="425"
+     inkscape:window-y="217"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Command Line Interface</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Adrián Reboreda Martínez</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:language>Español</dc:language>
+        <dc:source>http://upload.wikimedia.org/wikipedia/commons/5/52/Commandlineinterface.png</dc:source>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+        <dc:date>viernes, 25 de febrero de 2011</dc:date>
+        <dc:description>Diagrama que muestr la interacción entre el usuario, el sistema operativo y el intérprete de comandos.</dc:description>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Imagen"
+     style="display:inline"
+     transform="translate(-183.57143,-346.56633)">
+    <path
+       sodipodi:type="arc"
+       style="fill:#ff8900;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path2892"
+       sodipodi:cx="360.71429"
+       sodipodi:cy="384.50504"
+       sodipodi:rx="32.142857"
+       sodipodi:ry="31.428572"
+       d="m 392.85715,384.50504 c 0,17.35752 -14.39085,31.42857 -32.14286,31.42857 -17.75201,0 -32.14285,-14.07105 -32.14285,-31.42857 0,-17.35753 14.39084,-31.42858 32.14285,-31.42858 17.75201,0 32.14286,14.07105 32.14286,31.42858 z"
+       transform="matrix(1.1647943,0,0,1.0776306,-64.800811,-33.359492)" />
+    <rect
+       style="fill:#ffefdb;fill-opacity:1"
+       id="rect3666"
+       width="122.14286"
+       height="22.857141"
+       x="227.62247"
+       y="418.86783" />
+    <rect
+       style="fill:#ffefdb;fill-opacity:1;display:inline"
+       id="rect3666-1"
+       width="119.28571"
+       height="22.857141"
+       x="363.61478"
+       y="418.86783" />
+    <rect
+       style="fill:#fff68f;fill-opacity:1"
+       id="rect3704"
+       width="338.57144"
+       height="75.714287"
+       x="183.57143"
+       y="463.79077" />
+    <rect
+       style="fill:#76eec6;fill-opacity:1"
+       id="rect3706"
+       width="154.28572"
+       height="50.714287"
+       x="187.09955"
+       y="476.87366" />
+    <rect
+       style="fill:#77ee00;fill-opacity:1;display:inline"
+       id="rect3706-7"
+       width="167.85715"
+       height="50.714287"
+       x="345.46173"
+       y="476.87366" />
+    <rect
+       style="fill:#c1cdcd;fill-opacity:1"
+       id="rect3730"
+       width="226.78571"
+       height="57.142857"
+       x="228.92856"
+       y="688.07648" />
+    <rect
+       style="fill:#e0eeee;fill-opacity:1"
+       id="rect3732"
+       width="163.57143"
+       height="57.142857"
+       x="290.71429"
+       y="626.29071" />
+    <path
+       style="fill:#c1cdcd;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 287.54377,563.79498 -7.07107,0 0,-10.02871 -5.20613,0 8.74166,-9.51082 8.18057,9.51082 -4.63234,0 -0.0127,10.02871 z"
+       id="path3734"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       style="fill:#ff7f24;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="m 409.33553,543.75037 6.87579,0 -0.21924,10.3085 5.20181,0.21213 -9.12192,9.14673 -7.78626,-9.77311 4.6285,0.12561 0.42132,-10.01986 z"
+       id="path3734-5"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       style="fill:#c1cdcd;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="m 347.23994,613.79753 -7.07107,0 0,-10.02871 -5.20613,0 8.74166,-9.51082 8.18057,9.51082 -4.63234,0 -0.0127,10.02871 z"
+       id="path3734-9"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       style="fill:#ff7f24;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="m 409.14613,594.258 7.12832,0 -0.28237,10.48707 5.20181,0.21213 -9.12192,9.14673 -7.78626,-9.52057 4.6285,-0.12693 0.23192,-10.19843 z"
+       id="path3734-5-1"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:transform-center-x="34.345187"
+       inkscape:transform-center-y="-48.992399" />
+    <path
+       style="fill:#ff7f24;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="m 410.06417,442.95207 6.99122,-0.0276 -0.33467,10.33605 5.20181,0.21213 -9.12192,9.14673 -8.5149,-9.65767 5.35714,0.0102 0.42132,-10.01986 0,-3e-5 z"
+       id="path3734-5-4"
+       sodipodi:nodetypes="ccccccccc" />
+    <path
+       style="fill:#c1cdcd;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="m 287.54377,462.47117 -7.07107,0 0,-10.02871 -5.20613,0 8.74166,-9.51082 8.18057,9.51082 -4.63234,0 -0.0127,10.02871 z"
+       id="path3734-90"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       style="fill:#ff7f24;fill-opacity:1;stroke:#000000;stroke-width:2.00594926px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="m 275.7981,594.258 7.089,0 -0.45855,41.85731 5.47536,0.25079 -9.45796,39.67779 -7.78673,-40.0197 4.7312,-0.099 0.40768,-41.66716 0,-3e-5 z"
+       id="path3734-5-1-9"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:transform-center-x="33.233301"
+       inkscape:transform-center-y="-203.73282" />
+    <path
+       style="fill:#c1cdcd;fill-opacity:1;stroke:#000000;stroke-width:1.99729168px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="m 247.16261,677.5846 -6.65434,0 0,-42.51164 -4.89931,0 8.22648,-40.31631 7.69845,40.31631 -4.35933,0 -0.012,42.51164 z"
+       id="path3734-9-7"
+       sodipodi:nodetypes="cccccccc" />
+    <rect
+       style="fill:#ffd49b;fill-opacity:1"
+       id="rect3912"
+       width="240.92139"
+       height="22.475895"
+       x="227.4106"
+       y="568.75165" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Texto"
+     style="display:inline"
+     transform="translate(-183.57143,-346.56633)">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="292.12491"
+       y="721.2475"
+       id="text3914"><tspan
+         sodipodi:role="line"
+         id="tspan3916"
+         x="292.12491"
+         y="721.2475"
+         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial Bold">Sistema Operativo</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="322.42993"
+       y="475.57254"
+       id="text3918"><tspan
+         sodipodi:role="line"
+         id="tspan3920"
+         x="322.42993"
+         y="475.57254"
+         style="font-weight:bold;-inkscape-font-specification:Aegean Bold">Apariencia</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="216.67772"
+       y="454.60443"
+       id="text3922"><tspan
+         sodipodi:role="line"
+         id="tspan3924"
+         x="216.67772"
+         y="454.60443"
+         style="font-weight:bold;-inkscape-font-specification:Aegean Bold">Respuesta</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="264.65997"
+       y="434.40137"
+       id="text3926"><tspan
+         sodipodi:role="line"
+         id="tspan3928"
+         x="264.65997"
+         y="434.40137"
+         style="font-weight:bold;-inkscape-font-specification:Aegean Bold">Monitor</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="429.56738"
+       y="453.08917"
+       id="text3930"><tspan
+         sodipodi:role="line"
+         id="tspan3932"
+         x="429.56738"
+         y="453.08917"
+         style="font-weight:bold;-inkscape-font-specification:Aegean Bold">Mandato</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="405.20422"
+       y="435.01105"
+       id="text3934"><tspan
+         sodipodi:role="line"
+         id="tspan3936"
+         x="405.20422"
+         y="435.01105"
+         style="font-weight:bold;-inkscape-font-specification:Aegean Bold">Teclado</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="335.37067"
+       y="386.2204"
+       id="text3938"><tspan
+         sodipodi:role="line"
+         id="tspan3940"
+         x="335.37067"
+         y="386.2204"
+         style="font-weight:bold;-inkscape-font-specification:Aegean Bold">Usuario</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="288.14603"
+       y="582.64117"
+       id="text3942"><tspan
+         sodipodi:role="line"
+         id="tspan3944"
+         x="288.14603"
+         y="582.64117"
+         style="font-weight:bold;-inkscape-font-specification:Aegean Bold">Intérprete de mandatos</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Aegean Bold"
+       x="373.92859"
+       y="636.64795"
+       id="text3946"><tspan
+         sodipodi:role="line"
+         id="tspan3948"
+         x="373.92859"
+         y="636.64795"
+         style="text-align:center;text-anchor:middle">Programa: gestor</tspan><tspan
+         sodipodi:role="line"
+         x="373.92859"
+         y="650.39795"
+         id="tspan3950"
+         style="text-align:center;text-anchor:middle">de banco de datos, FTP</tspan><tspan
+         sodipodi:role="line"
+         x="373.92859"
+         y="664.14795"
+         id="tspan3952"
+         style="text-align:center;text-anchor:middle">gestor de transmisión por</tspan><tspan
+         sodipodi:role="line"
+         x="373.92859"
+         y="677.89795"
+         id="tspan3954"
+         style="text-align:center;text-anchor:middle">módem, etc.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.89205265px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Aegean Bold"
+       x="324.29797"
+       y="400.33139"
+       id="text3956"
+       transform="scale(0.81466144,1.2275038)"><tspan
+         sodipodi:role="line"
+         id="tspan3958"
+         x="324.29797"
+         y="400.33139"
+         style="text-align:center;text-anchor:middle">Modo gráfico, por ejemplo</tspan><tspan
+         sodipodi:role="line"
+         x="324.29797"
+         y="412.69644"
+         id="tspan3960"
+         style="text-align:center;text-anchor:middle">X-Window System, que ofrece</tspan><tspan
+         sodipodi:role="line"
+         x="324.29797"
+         y="425.06152"
+         id="tspan3962"
+         style="text-align:center;text-anchor:middle">ventanas y lee el teclado y ratón en ella.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.04515648px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Aegean Bold"
+       x="470.65082"
+       y="446.03564"
+       id="text3964"
+       transform="scale(0.91319599,1.0950552)"><tspan
+         sodipodi:role="line"
+         x="470.65082"
+         y="446.03564"
+         id="tspan3968">Modo texto: ocupa toda la pantalla</tspan><tspan
+         sodipodi:role="line"
+         x="470.65082"
+         y="458.5921"
+         id="tspan3972"> del monitor, el teclado es leído</tspan><tspan
+         sodipodi:role="line"
+         x="470.65082"
+         y="471.14853"
+         id="tspan3974">directamente por el sistema operativo.</tspan></text>
+  </g>
+</svg>
