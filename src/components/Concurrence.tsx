@@ -7,7 +7,7 @@ import cpu from "./../assets/cpu.jpg";
 
 const Concurrence = () => {
   return (
-    <div className="dark:text-gray-200">
+    <div className="text-gray-200">
       <div className="flex flex-col px-56">
         <section className="">
           <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
@@ -78,7 +78,7 @@ const Concurrence = () => {
             </div>
             <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
               <div>
-                <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-primary-100 lg:h-12 lg:w-12 bg-primary-900">
                   <FaCode className="text-2xl text-blue-600" />
                 </div>
                 <h3 className="mb-2 text-xl font-bold text-white">
@@ -90,7 +90,7 @@ const Concurrence = () => {
                 </p>
               </div>
               <div>
-                <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-primary-100 lg:h-12 lg:w-12 bg-primary-900">
                   <FaCode className="text-2xl text-blue-600" />
                 </div>
                 <h3 className="mb-2 text-xl font-bold text-white">
@@ -102,7 +102,7 @@ const Concurrence = () => {
                 </p>
               </div>
               <div>
-                <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-primary-100 lg:h-12 lg:w-12 bg-primary-900">
                   <FaCode className="text-2xl text-blue-600" />
                 </div>
                 <h3 className="mb-2 text-xl font-bold text-white">
@@ -114,7 +114,7 @@ const Concurrence = () => {
                 </p>
               </div>
               <div className="">
-                <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-primary-100 lg:h-12 lg:w-12 bg-primary-900">
                   <FaCode className="text-2xl text-blue-600" />
                 </div>
                 <h3 className="mb-2 text-xl font-bold text-white">

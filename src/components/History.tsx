@@ -9,13 +9,13 @@ import macosx from "./../assets/macosx.jpg";
 
 const History = () => {
   return (
-    <div className="dark:text-gray-200">
+    <div className="text-gray-200">
       <div className="flex flex-col px-56">
         <section className="">
           <div className="items-center max-w-screen-xl gap-8 px-4 py-8 mx-auto xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
             <img className="w-full" src={macos} alt="dashboard image" />
             <div className="mt-4 md:mt-0">
-              <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+              <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl text-white">
                 Historia del MacOS
               </h1>
               <p className="mb-6 text-xl text-justify text-white">
@@ -31,7 +31,7 @@ const History = () => {
         <section className="">
           <div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6">
             <div className="max-w-screen-sm mx-auto text-center">
-              <h1 className="mb-4 text-5xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white">
+              <h1 className="mb-4 text-5xl font-extrabold leading-none tracking-tight text-gray-900 text-white">
                 Antecedentes
               </h1>
               <p className="mb-6 text-xl text-justify text-white">
@@ -66,7 +66,7 @@ const History = () => {
         <section className="">
           <div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6">
             <div className="grid gap-8 mb-6 place-content-center lg:mb-16 md:grid-cols-2">
-              <div className="items-center rounded-lg shadow sm:flex dark:border-gray-700">
+              <div className="items-center rounded-lg shadow sm:flex border-gray-700">
                 <img
                   className="w-40 rounded-lg sm:rounded-none sm:rounded-l-lg"
                   src={steve}
@@ -86,7 +86,7 @@ const History = () => {
                   </p>
                 </div>
               </div>
-              <div className="items-center rounded-lg shadow sm:flex dark:border-gray-700">
+              <div className="items-center rounded-lg shadow sm:flex border-gray-700">
                 <img
                   className="w-40 rounded-lg sm:rounded-none sm:rounded-l-lg"
                   src={stephen}
@@ -105,14 +105,14 @@ const History = () => {
                   </p>
                 </div>
               </div>
-              <div className="items-center row-span-4 rounded-lg shadow sm:flex dark:border-gray-700">
+              <div className="items-center row-span-4 rounded-lg shadow sm:flex border-gray-700">
                 <img
                   className="w-40 rounded-lg sm:rounded-none sm:rounded-l-lg"
                   src={mike}
                   alt="Bonnie Avatar"
                 />
                 <div className="p-5">
-                  <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h3 className="text-xl font-bold tracking-tight text-gray-900 text-white">
                     Mike Markkula
                   </h3>
                   <span className="text-xl">(Ex CEO de Apple)</span>

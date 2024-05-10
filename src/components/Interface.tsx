@@ -6,7 +6,7 @@ import processes from "./../assets/procesos.jpg";
 
 const Interface = () => {
   return (
-    <div className="dark:text-white">
+    <div className="text-white">
       <div className="flex flex-col px-56">
         <section className="">
           <div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
@@ -24,7 +24,7 @@ const Interface = () => {
 
             <div className="grid grid-cols-1 mt-12 text-center sm:mt-16 gap-x-20 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
               <div className="space-y-4">
-                <span className="bg-green-100 text-green-800 text-md font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">
+                <span className="bg-green-100 text-green-800 text-md font-medium me-2 px-2.5 py-0.5 rounded bg-green-900 text-green-300">
                   Usado en macOS
                 </span>
                 <h3 className="text-xl font-bold leading-tight text-white">
@@ -37,7 +37,7 @@ const Interface = () => {
               </div>
 
               <div className="space-y-4">
-                <span className="bg-green-100 text-green-800 text-md font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">
+                <span className="bg-green-100 text-green-800 text-md font-medium me-2 px-2.5 py-0.5 rounded bg-green-900 text-green-300">
                   Usado en macOS
                 </span>
                 <h3 className="text-xl font-bold leading-tight text-white">
@@ -50,7 +50,7 @@ const Interface = () => {
               </div>
 
               <div className="space-y-4">
-                <span className="bg-red-100 text-red-800 text-md font-medium me-2 px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300">
+                <span className="bg-red-100 text-red-800 text-md font-medium me-2 px-2.5 py-0.5 rounded bg-red-900 text-red-300">
                   No usada en macOS
                 </span>
                 <h3 className="text-xl font-bold leading-tight text-white">
@@ -108,8 +108,8 @@ const Interface = () => {
             </div>
           </div>
         </section>
-        <div className="grid mb-8 border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 md:mb-12 md:grid-cols-2 ">
-          <figure className="flex flex-col items-center justify-center p-8 text-center border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:border-gray-700">
+        <div className="grid mb-8 border border-gray-200 rounded-lg shadow-sm border-gray-700 md:mb-12 md:grid-cols-2 ">
+          <figure className="flex flex-col items-center justify-center p-8 text-center border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e border-gray-700">
             <blockquote className="max-w-2xl mx-auto text-xl text-white">
               <h3>
                 1. Buscar la aplicación Finder, que suele encontrarse en la
@@ -117,17 +117,17 @@ const Interface = () => {
               </h3>
             </blockquote>
           </figure>
-          <figure className="flex flex-col items-center justify-center p-8 text-center border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:border-gray-700">
+          <figure className="flex flex-col items-center justify-center p-8 text-center border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e border-gray-700">
             <blockquote className="max-w-2xl mx-auto text-xl text-white">
               <h3>2. Ir a Aplicaciones/Utilidades.</h3>
             </blockquote>
           </figure>
-          <figure className="flex flex-col items-center justify-center p-8 text-center border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:border-gray-700">
+          <figure className="flex flex-col items-center justify-center p-8 text-center border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e border-gray-700">
             <blockquote className="max-w-2xl mx-auto text-xl text-white">
               <h3>3. Seleccionar "Terminal".</h3>
             </blockquote>
           </figure>
-          <figure className="flex flex-col items-center justify-center p-8 text-center border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:border-gray-700">
+          <figure className="flex flex-col items-center justify-center p-8 text-center border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e border-gray-700">
             <blockquote className="max-w-2xl mx-auto text-xl text-white">
               <h3>4. Escribir un comando en la línea de comandos.</h3>
             </blockquote>
@@ -143,7 +143,7 @@ const Interface = () => {
               <div>
                 <ol className="relative text-xl text-justify text-white border-gray-700 border-s">
                   <li className="mb-4 ms-6">
-                    <span className="absolute flex items-center justify-center w-8 h-8 text-blue-400 bg-blue-900 rounded-full -start-4 ring-4 ring-white dark:ring-gray-900">
+                    <span className="absolute flex items-center justify-center w-8 h-8 text-blue-400 bg-blue-900 rounded-full -start-4 ring-4 ring-white ring-gray-900">
                       1
                     </span>
                     <h3 className="leading-tight">
@@ -153,7 +153,7 @@ const Interface = () => {
                     </h3>
                   </li>
                   <li className="mb-4 ms-6">
-                    <span className="absolute flex items-center justify-center w-8 h-8 text-blue-400 bg-blue-900 rounded-full -start-4 ring-4 ring-white dark:ring-gray-900">
+                    <span className="absolute flex items-center justify-center w-8 h-8 text-blue-400 bg-blue-900 rounded-full -start-4 ring-4 ring-white ring-gray-900">
                       2
                     </span>
                     <h3 className="leading-tight">
@@ -162,7 +162,7 @@ const Interface = () => {
                     </h3>
                   </li>
                   <li className="mb-4 ms-6">
-                    <span className="absolute flex items-center justify-center w-8 h-8 text-blue-400 bg-blue-900 rounded-full -start-4 ring-4 ring-white dark:ring-gray-900">
+                    <span className="absolute flex items-center justify-center w-8 h-8 text-blue-400 bg-blue-900 rounded-full -start-4 ring-4 ring-white ring-gray-900">
                       3
                     </span>
                     <h3 className="leading-tight">
@@ -171,7 +171,7 @@ const Interface = () => {
                     </h3>
                   </li>
                   <li className="mb-4 ms-6">
-                    <span className="absolute flex items-center justify-center w-8 h-8 text-blue-400 bg-blue-900 rounded-full -start-4 ring-4 ring-white dark:ring-gray-900">
+                    <span className="absolute flex items-center justify-center w-8 h-8 text-blue-400 bg-blue-900 rounded-full -start-4 ring-4 ring-white ring-gray-900">
                       4
                     </span>
                     <h3 className="leading-tight">
@@ -180,7 +180,7 @@ const Interface = () => {
                     </h3>
                   </li>
                   <li className="mb-4 ms-6">
-                    <span className="absolute flex items-center justify-center w-8 h-8 text-blue-400 bg-blue-900 rounded-full -start-4 ring-4 ring-white dark:ring-gray-900">
+                    <span className="absolute flex items-center justify-center w-8 h-8 text-blue-400 bg-blue-900 rounded-full -start-4 ring-4 ring-white ring-gray-900">
                       5
                     </span>
                     <h3 className="leading-tight">
@@ -188,7 +188,7 @@ const Interface = () => {
                     </h3>
                   </li>
                   <li className="mt-6 mb-4 ms-6">
-                    <span className="absolute flex items-center justify-center w-8 h-8 text-blue-400 bg-blue-900 rounded-full -start-4 ring-4 ring-white dark:ring-gray-900">
+                    <span className="absolute flex items-center justify-center w-8 h-8 text-blue-400 bg-blue-900 rounded-full -start-4 ring-4 ring-white ring-gray-900">
                       6
                     </span>
                     <h3 className="leading-tight">
@@ -198,7 +198,7 @@ const Interface = () => {
                     </h3>
                   </li>
                   <li className="mb-4 ms-6">
-                    <span className="absolute flex items-center justify-center w-8 h-8 text-blue-400 bg-blue-900 rounded-full -start-4 ring-4 ring-white dark:ring-gray-900">
+                    <span className="absolute flex items-center justify-center w-8 h-8 text-blue-400 bg-blue-900 rounded-full -start-4 ring-4 ring-white ring-gray-900">
                       7
                     </span>
                     <h3 className="leading-tight">

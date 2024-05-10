@@ -24,7 +24,7 @@ const Security = () => {
               operativo, es necesario cumplir con lo siguiente:
             </p>
             <p className="max-w-xl mb-6 text-xl text-justify lg:mb-8">
-              <ul className="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-200">
+              <ul className="max-w-md space-y-1 text-white list-disc list-inside">
                 <li>Confidencialidad</li>
                 <li>Disponibilidad</li>
                 <li>Integridad</li>
@@ -71,7 +71,7 @@ const Security = () => {
               Tipos de peligros
             </h1>
             <p className="max-w-4xl mb-6 text-justify lg:mb-8 md:text-lg lg:text-xl">
-              <ul className="space-y-1 text-gray-500 list-disc list-inside dark:text-gray-200">
+              <ul className="space-y-1 text-white list-disc list-inside">
                 <li>
                   <b>Interrupción:</b> Se destruye un componente del sistema o
                   no se encuentra disponible (ataque centrado en la
@@ -142,7 +142,7 @@ const Security = () => {
                 Intrusos
               </h1>
               <p className="mb-6 text-justify lg:mb-8 md:text-lg lg:text-xl">
-                <ul className="space-y-1 text-gray-500 list-disc list-inside dark:text-gray-200">
+                <ul className="space-y-1 text-white list-disc list-inside">
                   <li>
                     <b>Enmascarado:</b> individuo que no está autorizado para
                     entrar a los controles de acceso del sistema para
@@ -177,7 +177,7 @@ const Security = () => {
             </div>
             <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
               <div>
-                <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-primary-100 lg:h-12 lg:w-12 bg-primary-900">
                   <CiVirus className="flex text-3xl font-bold text-blue-700" />
                 </div>
                 <h3 className="mb-2 text-xl font-bold text-white">Virus</h3>
@@ -189,7 +189,7 @@ const Security = () => {
                 </p>
               </div>
               <div>
-                <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-primary-100 lg:h-12 lg:w-12 bg-primary-900">
                   <GiTrojanHorse className="flex text-3xl font-bold text-blue-700" />
                 </div>
                 <h3 className="mb-2 text-xl font-bold text-white">Troyano</h3>
@@ -201,7 +201,7 @@ const Security = () => {
                 </p>
               </div>
               <div>
-                <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-primary-100 lg:h-12 lg:w-12 bg-primary-900">
                   <FaWorm className="flex text-2xl text-blue-700" />
                 </div>
                 <h3 className="mb-2 text-xl font-bold text-white">Gusano</h3>
@@ -213,7 +213,7 @@ const Security = () => {
                 </p>
               </div>
               <div>
-                <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-primary-100 lg:h-12 lg:w-12 bg-primary-900">
                   <GiSpy className="flex text-3xl text-blue-700" />
                 </div>
                 <h3 className="mb-2 text-xl font-bold text-white">Spyware</h3>
@@ -225,7 +225,7 @@ const Security = () => {
                 </p>
               </div>
               <div>
-                <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-primary-100 lg:h-12 lg:w-12 bg-primary-900">
                   <FaLock className="flex text-xl text-blue-700" />
                 </div>
                 <h3 className="mb-2 text-xl font-bold text-white">
@@ -238,7 +238,7 @@ const Security = () => {
                 </p>
               </div>
               <div>
-                <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-primary-100 lg:h-12 lg:w-12 bg-primary-900">
                   <FaRegWindowRestore className="flex text-xl text-blue-700" />
                 </div>
                 <h3 className="mb-2 text-xl font-bold text-white">Adware</h3>

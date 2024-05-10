@@ -1,7 +1,7 @@
 
 const Conclusiones = () => {
   return (
-    <div className="dark:text-gray-200">
+    <div className="text-gray-200">
       <div className="flex flex-col px-56">
       <section className="">
           <div className="max-w-screen-xl gap-8 px-4 py-8 mx-auto xl:gap-16 sm:py-16 lg:px-6">

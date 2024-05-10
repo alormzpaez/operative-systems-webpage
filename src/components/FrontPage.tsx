@@ -11,12 +11,12 @@ import daniel from "./../assets/daniel.png";
 
 const FrontPage = () => {
   return (
-    <div className="dark:text-gray-200">
+    <div className="text-gray-200">
       <div className="flex flex-col px-56">
         <section className="">
           <div className="max-w-screen-xl px-4 pb-8 mx-auto text-center lg:px-6">
             <div className="max-w-screen-sm mx-auto mb-8 lg:mb-16">
-              <div className="flex p-10 mb-4 text-4xl font-extrabold tracking-tight text-gray-900 rounded-md justify-evenly dark:text-white">
+              <div className="flex p-10 mb-4 text-4xl font-extrabold tracking-tight text-gray-900 rounded-md justify-evenly text-white">
                 <Image
                   radius="none"
                   width={300}
@@ -30,7 +30,7 @@ const FrontPage = () => {
                   src={fime}
                 />
               </div>
-              <h2 className="mb-4 text-5xl font-extrabold tracking-tight text-gray-900 dark:text-white">
+              <h2 className="mb-4 text-5xl font-extrabold tracking-tight text-gray-900 text-white">
                 PIA
               </h2>
               <p className="text-xl text-white">Equipo #2</p>
@@ -53,7 +53,7 @@ const FrontPage = () => {
                   src={natividad}
                   alt="Bonnie Avatar"
                 />
-                <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 text-white">
                   <a href="#">Natividad Aron De León Ramírez</a>
                 </h3>
                 <div className="flex justify-center gap-5">
@@ -73,7 +73,7 @@ const FrontPage = () => {
                   src={emiliano}
                   alt="Bonnie Avatar"
                 />
-                <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 text-white">
                   <a href="#">Emiliano García Montemayor</a>
                 </h3>
                 <div className="flex justify-center gap-5">
@@ -93,7 +93,7 @@ const FrontPage = () => {
                   src={alonso}
                   alt="Bonnie Avatar"
                 />
-                <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 text-white">
                   <a href="#">Alonso Ramírez Páez</a>
                 </h3>
                 <div className="flex justify-center gap-5">
@@ -113,7 +113,7 @@ const FrontPage = () => {
                   src={rocio}
                   alt="Bonnie Avatar"
                 />
-                <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 text-white">
                   <a href="#">Rocío Guadalupe Sánchez Medrano</a>
                 </h3>
                 <div className="flex justify-center gap-5">
@@ -134,7 +134,7 @@ const FrontPage = () => {
                     src={javier}
                     alt="Bonnie Avatar"
                   />
-                  <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 text-white">
                     <a href="#">Javier López Pérez</a>
                   </h3>
                   <div className="flex justify-center gap-5">
@@ -154,7 +154,7 @@ const FrontPage = () => {
                     src={carlos}
                     alt="Bonnie Avatar"
                   />
-                  <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 text-white">
                     <a href="#">Carlos Gabriel Beas Gonzalez</a>
                   </h3>
                   <div className="flex justify-center gap-5">
@@ -174,7 +174,7 @@ const FrontPage = () => {
                     src={daniel}
                     alt="Bonnie Avatar"
                   />
-                  <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 text-white">
                     <a href="#">Daniel Aharon Sánchez González</a>
                   </h3>
                   <div className="flex justify-center gap-5">

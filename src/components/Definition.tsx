@@ -52,7 +52,7 @@ const Definition = () => {
             </div>
             <div>
               <div className="block max-w-sm p-6 border-gray-200 rounded-lg shadow ">
-                <h5 className="flex items-center gap-2 mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-gray-200">
+                <h5 className="flex items-center gap-2 mb-2 text-xl font-bold tracking-tight text-gray-900 text-gray-200">
                   <FaApple />
                   iPhone
                 </h5>
@@ -63,7 +63,7 @@ const Definition = () => {
             </div>
             <div>
               <div className="block max-w-sm p-6 border-gray-200 rounded-lg shadow ">
-                <h5 className="flex items-center gap-2 mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-gray-200">
+                <h5 className="flex items-center gap-2 mb-2 text-xl font-bold tracking-tight text-gray-900 text-gray-200">
                   <FaWindows className="text-blue-500" />
                   Windows
                 </h5>
@@ -75,7 +75,7 @@ const Definition = () => {
             </div>
             <div>
               <div className="block max-w-sm p-6 border-gray-200 rounded-lg shadow ">
-                <h5 className="flex items-center gap-2 mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-gray-200">
+                <h5 className="flex items-center gap-2 mb-2 text-xl font-bold tracking-tight text-gray-900 text-gray-200">
                   <SiMacos className="text-4xl" />
                   MacOS
                 </h5>

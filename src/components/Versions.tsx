@@ -20,24 +20,24 @@ import version18 from './../assets/version18.png';
 
 const Versions = () => {
   return (
-    <div className="dark:text-white">
+    <div className="text-white">
       <div className="flex flex-col px-56">
         <section className="">
           <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16">
-            <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+            <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white text-gray-900 md:text-5xl lg:text-6xl">
               Versiones del MacOS
             </h1>
-            <p className="mb-8 text-lg font-normal text-justify text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-200">
+            <p className="mb-8 text-lg font-normal text-justify text-white lg:text-xl sm:px-16 lg:px-48 ">
               Explora la evolución histórica y las características distintivas
               de cada versión del sistema operativo MacOS, desde sus inicios
               hasta las más recientes actualizaciones. Además, revisita <b>cuáles eran los principales componentes de hardware necesarios para correr dichas versiones.</b>
             </p>
           </div>
         </section>
-        <ol className="relative self-center w-9/12 mb-10 border-gray-200 border-s dark:border-gray-700">
+        <ol className="relative self-center w-9/12 mb-10 border-gray-200 border-gray-700 border-s">
           <li className="flex mb-10 ms-6">
             <div className="">
-              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 bg-blue-900 rounded-full -start-3 ring-8 ring-white ring-gray-900">
                 
               </span>
               <h3 className="flex items-center mb-1 text-xl font-bold text-white">
@@ -74,7 +74,7 @@ const Versions = () => {
           </li>
           <li className="flex mb-10 ms-6">
             <div className="">
-              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 bg-blue-900 rounded-full -start-3 ring-8 ring-white ring-gray-900">
               </span>
               <h3 className="flex items-center mb-1 text-xl font-bold text-white">
                 MacOS 10.1 Puma 
@@ -108,7 +108,7 @@ const Versions = () => {
           </li>
           <li className="flex mb-10 ms-6">
             <div className="">
-              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 bg-blue-900 rounded-full -start-3 ring-8 ring-white ring-gray-900">
                 
               </span>
               <h3 className="flex items-center mb-1 text-xl font-bold text-white">
@@ -141,7 +141,7 @@ const Versions = () => {
           </li>
           <li className="flex mb-10 ms-6">
             <div className="">
-              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 bg-blue-900 rounded-full -start-3 ring-8 ring-white ring-gray-900">
                 
               </span>
               <h3 className="flex items-center mb-1 text-xl font-bold text-white">
@@ -174,7 +174,7 @@ const Versions = () => {
           </li>
           <li className="flex mb-10 ms-6">
             <div className="">
-              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 bg-blue-900 rounded-full -start-3 ring-8 ring-white ring-gray-900">
                 
               </span>
               <h3 className="flex items-center mb-1 text-xl font-bold text-white">
@@ -207,7 +207,7 @@ const Versions = () => {
           </li>
           <li className="flex mb-10 ms-6">
             <div className="">
-              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 bg-blue-900 rounded-full -start-3 ring-8 ring-white ring-gray-900">
                 
               </span>
               <h3 className="flex items-center mb-1 text-xl font-bold text-white">
@@ -240,7 +240,7 @@ const Versions = () => {
           </li>
           <li className="flex mb-10 ms-6">
             <div className="">
-              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 bg-blue-900 rounded-full -start-3 ring-8 ring-white ring-gray-900">
                 
               </span>
               <h3 className="flex items-center mb-1 text-xl font-bold text-white">
@@ -273,7 +273,7 @@ const Versions = () => {
           </li>
           <li className="flex mb-10 ms-6">
             <div className="">
-              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 bg-blue-900 rounded-full -start-3 ring-8 ring-white ring-gray-900">
                 
               </span>
               <h3 className="flex items-center mb-1 text-xl font-bold text-white">
@@ -306,7 +306,7 @@ const Versions = () => {
           </li>
           <li className="flex mb-10 ms-6">
             <div className="">
-              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 bg-blue-900 rounded-full -start-3 ring-8 ring-white ring-gray-900">
                 
               </span>
               <h3 className="flex items-center mb-1 text-xl font-bold text-white">
@@ -339,7 +339,7 @@ const Versions = () => {
           </li>
           <li className="flex mb-10 ms-6">
             <div className="">
-              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 bg-blue-900 rounded-full -start-3 ring-8 ring-white ring-gray-900">
                 
               </span>
               <h3 className="flex items-center mb-1 text-xl font-bold text-white">
@@ -372,7 +372,7 @@ const Versions = () => {
           </li>
           <li className="flex mb-10 ms-6">
             <div className="">
-              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 bg-blue-900 rounded-full -start-3 ring-8 ring-white ring-gray-900">
                 
               </span>
               <h3 className="flex items-center mb-1 text-xl font-bold text-white">
@@ -405,7 +405,7 @@ const Versions = () => {
           </li>
           <li className="flex mb-10 ms-6">
             <div className="">
-              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 bg-blue-900 rounded-full -start-3 ring-8 ring-white ring-gray-900">
                 
               </span>
               <h3 className="flex items-center mb-1 text-xl font-bold text-white">
@@ -438,7 +438,7 @@ const Versions = () => {
           </li>
           <li className="flex mb-10 ms-6">
             <div className="">
-              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 bg-blue-900 rounded-full -start-3 ring-8 ring-white ring-gray-900">
                 
               </span>
               <h3 className="flex items-center mb-1 text-xl font-bold text-white">
@@ -471,7 +471,7 @@ const Versions = () => {
           </li>
           <li className="flex mb-10 ms-6">
             <div className="">
-              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 bg-blue-900 rounded-full -start-3 ring-8 ring-white ring-gray-900">
                 
               </span>
               <h3 className="flex items-center mb-1 text-xl font-bold text-white">
@@ -504,7 +504,7 @@ const Versions = () => {
           </li>
           <li className="flex mb-10 ms-6">
             <div className="">
-              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 bg-blue-900 rounded-full -start-3 ring-8 ring-white ring-gray-900">
                 
               </span>
               <h3 className="flex items-center mb-1 text-xl font-bold text-white">
@@ -537,7 +537,7 @@ const Versions = () => {
           </li>
           <li className="flex mb-10 ms-6">
             <div className="">
-              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 bg-blue-900 rounded-full -start-3 ring-8 ring-white ring-gray-900">
                 
               </span>
               <h3 className="flex items-center mb-1 text-xl font-bold text-white">
@@ -570,7 +570,7 @@ const Versions = () => {
           </li>
           <li className="flex mb-10 ms-6">
             <div className="">
-              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 bg-blue-900 rounded-full -start-3 ring-8 ring-white ring-gray-900">
                 
               </span>
               <h3 className="flex items-center mb-1 text-xl font-bold text-white">
@@ -603,12 +603,12 @@ const Versions = () => {
           </li>
           <li className="flex mb-10 ms-6">
             <div className="">
-              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 bg-blue-900 rounded-full -start-3 ring-8 ring-white ring-gray-900">
                 
               </span>
               <h3 className="flex items-center mb-1 text-xl font-bold text-white">
                 MacOS 12 Monterey
-                <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">Más reciente registrada</span>
+                <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded bg-blue-900 text-blue-300 ms-3">Más reciente registrada</span>
               </h3>
               <time className="block mb-2 text-xl font-normal leading-none text-white">
                 Lanzada en 2021
