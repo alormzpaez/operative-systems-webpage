@@ -115,13 +115,13 @@ function App() {
               </Link>
             </NavbarItem>
             <NavbarItem>
-              <Link color={page == "Bibliografia" ? "primary" : "foreground"} onPress={() => {setPage("Bibliografia"); window.scrollTo(0, 0)}} className="cursor-pointer">
-                Bibliografia
+              <Link color={page == "Conclusiones" ? "primary" : "foreground"} onPress={() => {setPage("Conclusiones"); window.scrollTo(0, 0)}} className="cursor-pointer">
+                Conclusiones
               </Link>
             </NavbarItem>
             <NavbarItem>
-              <Link color={page == "Conclusiones" ? "primary" : "foreground"} onPress={() => {setPage("Conclusiones"); window.scrollTo(0, 0)}} className="cursor-pointer">
-                Conclusiones
+              <Link color={page == "Bibliografia" ? "primary" : "foreground"} onPress={() => {setPage("Bibliografia"); window.scrollTo(0, 0)}} className="cursor-pointer">
+                Bibliografia
               </Link>
             </NavbarItem>
           </NavbarContent>
