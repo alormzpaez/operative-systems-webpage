@@ -94,7 +94,7 @@ function App() {
             </NavbarItem>
             <NavbarItem>
               <Link color={page == "Interfaz" ? "primary" : "foreground"} onPress={() => {setPage("Interfaz"); window.scrollTo(0, 0)}} className="cursor-pointer">
-                Interfaz
+                Interfaz y kernel
               </Link>
             </NavbarItem>
             <NavbarItem>
