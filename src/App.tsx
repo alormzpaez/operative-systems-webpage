@@ -11,7 +11,7 @@ import {
 import logo from "./assets/apple.svg";
 import "./App.css";
 import React from "react";
-import useDarkMode from "use-dark-mode";
+// import useDarkMode from "use-dark-mode";
 import Definition from "./components/Definition";
 import Versions from "./components/Versions";
 import Interface from "./components/Interface";
@@ -25,7 +25,7 @@ import Activities from "./components/Activities";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-  const darkMode = useDarkMode(true);
+  // const darkMode = useDarkMode(true);
   const [page, setPage] = React.useState("Portada");
 
   const menuItems = [
