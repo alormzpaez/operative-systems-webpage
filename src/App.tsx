@@ -24,6 +24,7 @@ import History from "./components/History";
 import Security from "./components/Security";
 import Bibliografia from "./components/Bibliografia";
 import Conclusiones from "./components/Conclusiones";
+import Activities from "./components/Activities";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -38,6 +39,7 @@ function App() {
     "Interfaz",
     "GUI",
     "Concurrencia",
+    "Activities",
     "Bibliografia",
     "Conclusiones",
   ];
@@ -107,6 +109,11 @@ function App() {
                 Seguridad
               </Link>
             </NavbarItem>
+            <NavbarItem className="">
+              <Link color={page == "Activities" ? "primary" : "foreground"} onPress={() => {setPage("Activities"); window.scrollTo(0, 0)}} className="cursor-pointer">
+                Actividades
+              </Link>
+            </NavbarItem>
             <NavbarItem>
               <Link color={page == "Bibliografia" ? "primary" : "foreground"} onPress={() => {setPage("Bibliografia"); window.scrollTo(0, 0)}} className="cursor-pointer">
                 Bibliografia
@@ -144,6 +151,8 @@ function App() {
             <Concurrence />
           : page == "Historia" ?
             <History />
+          : page == "Activities" ?
+            <Activities />
           : page == "Bibliografia" ?
             <Bibliografia />
           : page == "Conclusiones" ?
